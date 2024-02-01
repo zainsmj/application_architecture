@@ -1,0 +1,46 @@
+# This file configures the analyzer, which statically analyzes Dart code to
+# check for errors, warnings, and lints.
+#
+# The issues identified by the analyzer are surfaced in the UI of Dart-enabled
+# IDEs (https://dart.dev/tools#ides-and-editors). The analyzer can also be
+# invoked from the command line by running `flutter analyze`.
+
+# The following line activates a set of recommended lints for Flutter apps,
+# packages, and plugins designed to encourage good coding practices.
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  # The lint rules applied to this project can be customized in the
+  # section below to disable rules from the `package:flutter_lints/flutter.yaml`
+  # included above or to enable additional rules. A list of all available lints
+  # and their documentation is published at https://dart.dev/lints.
+  rules:
+    avoid_print: true
+    avoid_empty_else: true
+    always_use_package_imports: true
+    always_declare_return_types: true
+    cancel_subscriptions: true
+    invalid_case_patterns: true
+    lines_longer_than_80_chars: true
+    empty_catches: true
+    file_names: true
+    require_trailing_commas: true
+    sized_box_for_whitespace: true
+    prefer_is_empty: true
+    prefer_is_not_empty: true
+    prefer_is_not_operator: true
+    unnecessary_late: true
+    use_enums: true
+    empty_statements: true
+    use_key_in_widget_constructors: true
+    always_put_required_named_parameters_first: true
+    unnecessary_const: true
+    avoid_multiple_declarations_per_line: true
+    unnecessary_parenthesis: true
+    constant_identifier_names: true
+    unnecessary_lambdas: true
+    unnecessary_string_escapes: true
+    unnecessary_this: true
+    unnecessary_to_list_in_spreads: true
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options
